@@ -1,4 +1,5 @@
 #Array
+#
 #from array import *
 import array as arr
 #Creación de un arreglo
@@ -34,5 +35,10 @@ except:
     print("⚠️ Número no encontrado!!! ⚠️")
 
 #Busqueda por indice
+#Asignando valor en un indice que no existe
+try:
+    my_array[100]=3
+except:
+    print("Indice no existente!!!")
 
 
